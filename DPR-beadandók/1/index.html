@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>MORDHAU</title>
+</head>
+
+<body>
+  <!--Kép lapozó kezd-->
+  <header>
+    <div class="container-fluid" id="kepek" style="text-align: center;">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <span style="text-align: center;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="kep1.jpg" alt="MORDHAU" title="MORDHAU" width="50%" height="50%">
+            </div>
+            <div class="carousel-item">
+              <img src="kep2.jpg" alt="mordhau" title="mordhau" width="50%" height="50%">
+            </div>
+            <div class="carousel-item">
+              <img src="kep3.jpg" alt="Mordhau" title="Mordhau" width="50%" height="50%">
+            </div>
+          </div>
+        </span>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <br>
+    </div>
+  </header>
+  <!--Kép lapozó vég-->
+  <!--Nav sáv kezd-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-light justify-content-center">
+    <ul class="navbar-nav font-weight-bold">
+      <li class="nav-item">
+        <a class="nav-link text-light" href="index.html" style="text-decoration: underline;"><b>MORDHAU</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="fegyverek.html"><b>Fegyverek</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="maps.html"><b>Pályák</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="vasarlas.html" target="_blank"><b>Vásárlás</b></a>
+      </li>
+
+    </ul>
+  </nav>
+  <!--Nav sáv vég-->
+  <br>
+  <!--Játékról kezd-->
+  <section>
+    <h1 class="h1"><a href="https://www.ign.com/videos/5-minutes-of-mordhau-gameplay-1080p-60fps"
+        target="_blank">Játékmenet</a></h1>
+    <p class="szoveg">
+      Mordhauban a játékosok középkori fegyverekkel, például kardokkal, lándzsákkal , pajzsokkal, kalapácsokkal,
+      íjakkal,
+      ostromfegyverekkel és egyebekkel vesznek részt kézi harcban. Közelharcban a játékosok olyan technikákkal győzhetik
+      le
+      ellenfeleiket, mint az irányított ütések, szúrások, rúgások, kitérések, blokkolások és hárítások, miközben
+      figyelik
+      egészségi állapotukat és állóképességüket. A játékosok lovagolhatnak a csatában. A játék játszható első személyű
+      vagy
+      harmadik személy perspektívájában is.
+    </p>
+  </section>
+  <br>
+  <!--Játékról vég-->
+  <!--fegyverek kezd-->
+  <section>
+    <h2 class="h2"><a href="https://mordhau.fandom.com/wiki/Customization" target="_blank">Testreszabás</a></h2>
+    <p class="szoveg"> A játékmeneten kívül a játékos szerkesztheti és létrehozhat zsoldosokat a legtöbb játékmódhoz.
+      Létrehozáskor vagy
+      szerkesztéskor a játékos kozmetikai célból megváltoztathatja a zsoldos testtípusát, arcát és hangját. A páncélok,
+      fegyverek és jutalmak szerkesztése játékon belüli pontokba kerül. Attól függően, hogy a játékos milyen típusú
+      páncélzattal rendelkezik, ez befolyásolhatja a játékos mozgási sebességét, például azt, hogy nehezebb páncél
+      viselése hogyan tud lassítani a játékost, és több pontba kerül, míg a páncélnak csak három szintje van, a
+      páncélnak
+      is vannak kozmetikai változatai. Az összes fegyverpontértéket nagyjából a fegyver mérete határozza meg, mivel egy
+      könnyű tőr nem lenne olyan költséges, mint egy nehéz kalapács. A jutalmak rendszere különféle passzív képességeket
+      biztosít a zsoldosnak pontok árán, amelyek a jutalmak ideális haszna alapján skálázhatók.
+    </p>
+  </section>
+  <!--fegyverek vég-->
+  <!--fejlesztés kezd-->
+  <section>
+
+    <h3 class="h2"><a href="https://twitter.com/MordhauGame" target="_blank">Fejlesztés</a></h3>
+    <p class="szoveg">
+      A játék az Unreal Engine 4 segítségével készült .
+      <br>
+      <b>Marko Grgurovič</b>, a Primorska Egyetem informatikai doktoranduszának szlovén hallgatója egyedül kezdte el
+      Mordhau
+      fejlesztését . Mivel nem volt tapasztalata a játékfejlesztésben, Grgurovič elkezdte építeni a prototípust a
+      Unityben
+      Project Slasher néven . Miután két évig dolgoztak a Project Slasheren egy másik személlyel, a csapat úgy
+      döntött, hogy az egész projektet újrakészítik, mivel az nem felelt meg az elvárásaiknak. A következő három
+      évben Grgurovičhoz más programozók, grafikusok és animátorok is csatlakoztak a világ minden tájáról, akik közül
+      sokan szívesen játszottak videojátékokkal, mint például a Chivalry: Medieval Warfare , és szerettek volna valami
+      hasonlót készíteni. Ez oda vezetett, hogy megalapították a Triternion céget, és elkészítették az első
+      verziókat. Ebben az időszakban a fejlesztőcsapat a Unity használatáról az Unreal Engine-re váltott, és átnevezte a
+      projektet Mordhau -ra .
+
+      2017 márciusában a vállalat elindított egy Kickstarter kampányt, hogy fejlesztési forrásokat gyűjtsön, és
+      kevesebb,
+      mint 24 óra leforgása alatt elérje az adománygyűjtési célokat. A játék 2019. április 29-én jelent meg a
+      Steamen. A tervek szerint <i>PlayStation 4</i>-re, <i>PlayStation 5</i>-re, <i>Xbox One</i>-ra és <i>Xbox Series
+        X/S</i>-re fog megjelenni.
+    </p>
+  </section>
+  <!--fejlesztés vég-->
+  <!--dino game kezd-->
+  <footer>
+    <p><a href="https://chromedino.com" target="_blank">kifli a legjobb</a></p>
+  </footer>
+  <!--dino game vég-->
+</body>
+
+</html>

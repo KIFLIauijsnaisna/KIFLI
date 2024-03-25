@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Fegyverek</title>
+</head>
+
+<body>
+  <!--Kép lapozó kezd-->
+
+  <header>
+    <div class="container-fluid" id="kepek" style="text-align: center;">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <span style="text-align: center;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="kep1.jpg" alt="MORDHAU" title="MORDHAU" width="50%" height="50%">
+            </div>
+            <div class="carousel-item">
+              <img src="kep2.jpg" alt="mordhau" title="mordhau" width="50%" height="50%">
+            </div>
+            <div class="carousel-item">
+              <img src="kep3.jpg" alt="Mordhau" title="Mordhau" width="50%" height="50%">
+            </div>
+          </div>
+        </span>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <br>
+    </div>
+  </header>
+  <!--Kép lapozó vég-->
+  <!--Nav sáv kezd-->
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-light justify-content-center">
+    <ul class="navbar-nav font-weight-bold">
+      <li class="nav-item">
+        <a class="nav-link text-light" href="index.html"><b>MORDHAU</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="fegyverek.html" style="text-decoration: underline;"><b>Fegyverek</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="maps.html"><b>Pályák</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="vasarlas.html" target="_blank"><b>Vásárlás</b></a>
+      </li>
+
+    </ul>
+  </nav>
+  <!--Nav sáv vég-->
+
+  <br>
+
+  <!--Táblázat kezd-->
+
+  <table class="tablazat">
+    <caption style="caption-side:top; text-align: center; color: beige;">
+      <details>
+        <summary>Fegyver táblázat</summary>
+        Ezeken kívűl még rengeteg fegyver megtalálható a játékban, szám szerint: 89
+      </details>
+    </caption>
+    <thead>
+      <tr>
+        <th>Fegyver neve</th>
+        <th>Fegyver sebzése</th>
+        <th>Ára (coin)</th>
+        <th>Kinézete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rövid lándzsa</td>
+        <td>100-45</td>
+        <td>4 </td>
+        <td> <a href="spear.webp" target="_blank"><img src="sspear.png" alt="sspear" height="300%" width="70%"></a>
+        </td>
+      </tr>
+      <tr>
+        <td>Vívótőr</td>
+        <td>100-45</td>
+        <td>4</td>
+        <td> <a href="rapier.webp" target="_blank"><img src="tőr.png" alt="tőr" height="300%" width="70%"></a> </td>
+      </tr>
+      <tr>
+        <td>Hóhér kard</td>
+        <td>120-70</td>
+        <td>7</td>
+        <td> <a href="hoher.webp" target="_blank"><img src="hóhér.png" alt="hóhér" height="300%" width="70%"></a> </td>
+      </tr>
+      <tr>
+        <td>Kalapács</td>
+        <td>100-100</td>
+        <td>7</td>
+        <td> <a href="maul.jpg" target="_blank"><img src="kalapács.png" alt="kalapács" height="300%" width="70%"></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--Táblázat vég-->
+
+  <!--Dino game kezd-->
+
+  <footer>
+    <p><a href="https://chromedino.com" target="_blank">kifli a legjobb</a></p>
+  </footer>
+  <!--Dino game vég-->
+
+</body>
+
+</html>

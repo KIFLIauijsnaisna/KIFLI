@@ -1,0 +1,102 @@
+
+body{
+    background-image: url(hatterkep.jpg);
+background-attachment: fixed;
+    color: beige;
+}
+
+
+
+.carousel-control-next{
+    margin-right: 225px;
+    width: 35%;
+    height: auto;
+}
+
+.carousel-control-prev{
+    margin-left: 225px;
+    width: 35%;
+    height: auto;
+}
+
+.h1{
+    text-align: center;
+color: beige;
+text-decoration: underline overline;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2{
+    text-align: center;
+    text-decoration: underline ;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.szoveg{
+    color: beige;
+    text-align: justify;
+    margin: 0px 150px 0px 150px;
+    font-size: 1.3em;
+}
+
+
+.tablazat{
+        border: solid 5px red;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+        background-color: black;
+}
+
+tr{
+    border: solid 5px beige;
+}
+
+td{
+    border: solid 5px beige;
+   width: max-content;
+}
+
+th{
+    border: solid 5px beige;
+    width: max-content;
+}
+ 
+
+
+thead{
+    font-style: italic;
+    text-decoration: wavy;
+    text-align: justify;
+    text-align: center;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;   
+}
+
+a:visited{
+    color: lightgray;
+}
+
+a:link:active, a:visited:active{
+    color: aqua;
+    text-decoration: underline;
+} 
+
+
+a:link, a:visited {
+    color: lightgray ;
+}
+
+footer{
+    font-size: 0.25em;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

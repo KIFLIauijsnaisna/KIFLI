@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="vasarlas.css">
+  <title>Vásárlás</title>
+
+</head>
+
+<body>
+  <!--Kép lapozó kezd-->
+
+  <header>
+    <div class="container-fluid" id="kepek" style="text-align: center;">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <span style="text-align: center;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="kep1.jpg" alt="MORDHAU" title="MORDHAU" width="50%" height="50%">
+            </div>
+            <div class="carousel-item">
+              <img src="kep2.jpg" alt="mordhau" title="mordhau" width="50%" height="50%">
+            </div>
+            <div class="carousel-item">
+              <img src="kep3.jpg" alt="Mordhau" title="Mordhau" width="50%" height="50%">
+            </div>
+          </div>
+        </span>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <br>
+    </div>
+  </header>
+  <!--Kép lapozó vég-->
+  <!--Nav sáv kezd-->
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-light justify-content-center">
+    <ul class="navbar-nav font-weight-bold">
+      <li class="nav-item">
+        <a class="nav-link text-light" href="index.html"><b>MORDHAU</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="fegyverek.html"><b>Fegyverek</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="maps.html"><b>Pályák</b></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="vasarlas.html" target="_blank"
+          style="text-decoration: underline;"><b>Vásárlás</b></a>
+      </li>
+
+    </ul>
+  </nav>
+  <!--Nav sáv vég-->
+
+  <br>
+  <!--vásárlás card kezd-->
+
+  <div class="container">
+    <div class="card cart">
+      <label class="title">Vásárlás</label>
+      <div class="steps">
+        <div class="step">
+          <div>
+            <span>Kártya száma:</span>
+            <input type="text" value="0123 4567 8901">
+            <label for="kártya száma"></label>
+
+          </div>
+
+          <form action="/action_page.php">
+              <input type="radio" id="html" name="fav_language" value="Epic Gmaes" checked>
+              <label for="epic">Epic Games</label><br>
+              <input type="radio" id="css" name="fav_language" value="Steam">
+              <label for="steam">Steam</label><br>
+
+          </form>
+
+          <div class="promo">
+            <span>VAN KUPONKÓDJA?</span>
+            <form class="form">
+              <input type="text" placeholder="Ide írja a kuponkódját" class="input_field">
+              <button>OKÉ</button>
+            </form>
+
+            <br>
+
+            <label for="megjegyzes">Egyéb megjegyzés</label>
+            <textarea name="megjegyzes" id="megjegyzes" cols="30" rows="5" maxlength="140"
+              style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Megjegyzés</textarea>
+
+          </div>
+
+          <div class="payments">
+            <div class="details">
+              <span>Összeg:</span>
+              <span>€28.99</span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card checkout">
+      <div class="footer">
+        <label class="price">€28.99</label>
+
+
+        <input type="reset" value="Törlés" class="button">
+
+
+        <input type="submit" value="Fizetés" class="button">
+      </div>
+    </div>
+  </div>
+  <!--vásárlás card vég-->
+  <!--Dino game kezd-->
+
+  <footer>
+    <p><a href="https://chromedino.com" target="_blank">kifli a legjobb</a></p>
+  </footer>
+  <!--Dino game vég-->
+
+
+</body>
+
+</html>
